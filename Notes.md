@@ -38,7 +38,7 @@
 
 ##
 
-##### **video Timestamp :** **13:48 -16:50**
+##### **video Timestamp :** **13:48 - 16:50**
 
 
 *
@@ -52,7 +52,7 @@
 
 ##
 
-##### **video Timestamp :** **16:51  -23:00**
+##### **video Timestamp :** **16:51 - 23:00**
 
 *
     *Ml is used with structured data and Dl is used with unstructured data*
@@ -70,3 +70,40 @@
     *2. Fast Forward Neural Network*<br>
     *3. Recurrent Neural Network*<br>
     *4. Convoulational Neural Network*<br>
+
+##### **Neural Networks**
+
+##
+
+##### **video Timestamp :** **23:00 - 32:23**
+
+*
+    *Neural Networks are network of perceptrons(an equivalent of a neuron of brain) where each neuron process the data it received from the other neuron perform some mathematical operation on the data called activation function.*
+
+*
+    *The data is generally numerical representation of data.*
+
+*
+    *There are input layer, output layer and some hidden layer.*
+
+*
+    *Activation functions are mathematical operations can be linear or non linear deponding upon the case*
+
+*
+    *The neural network learns the hidden feature/patterns/weight from the data*
+
+
+##### **Types of Learning**
+
+##
+
+##### **video Timestamp :** **32:23 - 43:16**
+
+*
+    *There are following types of learning :*
+    
+    1. Supervised Learning
+    2. Unsupervised Learning/ self supervised Learning
+    3. Transfer Learning
+    4. Reinforcement Learning
+
