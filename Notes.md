@@ -107,3 +107,23 @@
     3. Transfer Learning
     4. Reinforcement Learning
 
+
+
+##### **Introduction to tensors**
+
+##
+
+##### **video Timestamp :** **53:33 - 1:03:34**
+
+*
+    *Tensors are mathematical representation of the data as simple as that for the time being .They are quiet complex as mathematical concepts but we'll only learn about them in context to pytorch*
+
+##### $Basics of what we'll do from here as in the video$
+1. Get the data ready(convet to tensors)
+2. Build or pick a pre-trained model
+    - pick a loss function and optimiser
+    - build a training loop
+3. Fit the data to the model make prediction.
+4. Evaluate the model
+5. Improve through expreimentation
+6. Save and reload your trained model
