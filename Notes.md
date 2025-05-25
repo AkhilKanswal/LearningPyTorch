@@ -127,3 +127,39 @@
 4. Evaluate the model
 5. Improve through expreimentation
 6. Save and reload your trained model
+
+##
+
+###  Gettign started with code
+
+##
+##### **getting started with tensors with code**
+
+
+##### **video Timestamp :** **1:24:46* - 1:35:30*
+
+*
+    *pytorch tensors are created using torch.tensor*
+    - *it takes an argument i.e, the tensor has it's value*
+
+    *ndim - is number of dimension of a tensor*
+
+*
+    *There are 4 types of tensors which are as follow:*
+
+    - $Scalar$
+    - $Vector$
+    - $Matrix$
+    - $Tensor$
+
+*
+    *Examples :*
+    - Scalar : [7]
+    - vector : [2,8]
+    - Matrix : [[2,5],
+                [9,6]]
+    - Tensor : [[7,8],
+                [9,5],
+                [6,7],
+                [4,3]]
+
