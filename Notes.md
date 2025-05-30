@@ -210,7 +210,7 @@
 
 ##### **Tensor Operations**
 
-##### **video Timestamp :** ** 2:11:49 - *
+##### **video Timestamp :** ** 2:11:49 - 2:17:48*
 
 *
     *Tensor Operations include:*
@@ -219,3 +219,7 @@
     - $multiplication (element -wise)$
     - $Division$
     - $Matrix Multiplication$
+
+*
+    *We can also uese inbuilt torch functions such as torch.add, torch.substract, torch.mul, torch.matmul etc*
+
