@@ -163,3 +163,59 @@
                 [6,7],
                 [4,3]]
 
+##
+##### **Creating Random Tensors zeros and one tensor and tensor datatype**
+
+
+##### **video Timestamp :** ** 1:35:30 - 2:11:48*
+
+
+*
+    *Random Tensors are important because the way many neural networks learn is that they start with random numbersand then adjust those random numbers to better represent the data*
+
+*
+    *We can create zero and one tensor using torch.zeros and torch.ones*
+*
+    *We can also create a range tensor using torch.arange(start_index , end_index, step_ifRequired)*
+
+*
+    *we can create a tensor of another type similar to arange using _like()*
+    - Example:  one_to_ten= torch.arange(1,11)
+
+    another_tenor=torch.ones_like(one_to_ten)
+
+*
+    *default datatype of a tensor is float32*
+
+*   
+    *Some ther types are:*
+    - $float16$ 
+    - $float64$ 
+    - $int32$ 
+    - $int64$ 
+    - $int16$ 
+
+    *The number bascially represents presion in calculation of numbers*
+
+***
+### Tensor Issues
+    *Tensors have biggest 3 issues causing errors which are as follow:*
+
+    1. Tensors Not Right DataType - to get datatype we'll torch.datatype
+    2. Tensors Not Right Shape - to get shape we'll torch.shape
+    3. Tensors Not on Right Device - to get device we'll torch.device
+
+***
+
+
+##### **Tensor Operations**
+
+##### **video Timestamp :** ** 2:11:49 - *
+
+*
+    *Tensor Operations include:*
+    - $Addition$
+    - $Substraction$
+    - $multiplication (element -wise)$
+    - $Division$
+    - $Matrix Multiplication$
