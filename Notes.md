@@ -223,3 +223,75 @@
 *
     *We can also uese inbuilt torch functions such as torch.add, torch.substract, torch.mul, torch.matmul etc*
 
+
+##### **Matrix Multiplication**
+
+##### **video Timestamp :** **2:17:48 - 2:34:59*
+*
+    *We'll use troch.mul() for element wise matrix multiplication*
+*
+    *Rules of Matrix Multiplications*
+
+    - The Inner dimensions must match
+        * example: (3,2) and (3,2) won't match but (3,2) and (2,3) will work
+    - The resulting matrix is of **outer dimensions**
+        * exapmle:  (3,3) and (3,2) => (3,2), (3,2) and (2,3) => (3,3)
+
+
+##### **Matrix Multiplication(dealin with shape errors)**
+
+##### **video Timestamp :** **2:35:18 - 2:48:15*
+
+*
+    *Its common to run into shape errors, to fix tensor shape issues, we'll use **Transpose** of a matrix(tensor)*
+
+*
+    *Transpose is changin g rows to column and column into rows **OR** It switches the axis or dimensions of a tensor*
+
+*
+    *Transpose can be used using  **.T** *
+
+*
+    **Example: tensor_B.T**
+
+##### **Tensor aggeration i.e., finding min,max,mean, sum etc.**
+
+##### **video Timestamp :** **2:48:17 - 2:54:28*
+
+*
+    *To find max well use torch.max(Definedtensor) & Definedtensor.max*
+*
+    *To find min well use torch.min(Definedtensor) & Definedtensor.min*
+*
+    *To find mean of tensor well use torch.mean(Definedtensor)*
+
+*
+    *we can convert the data type of tensor using x.type(torch.float32) or any other type*
+
+
+##### **Finding positional min and max of tensors**
+
+##### **video Timestamp :** **2:54:28 - 2:57:45*
+
+*
+    *To find the positional min and max of a tensor we'll argmin() and argmax() and returns the index*
+
+##### **Reshaping, reviewing and stacking tensors**
+
+##### **video Timestamp :** **2:57:50 - 3:11:28*
+*
+    ***Reshaping** - reshape an input tensor to a defined shape*
+*
+    *The reshaped dimensions must be comptable with the original shapes i.e., theiir size must match*
+
+*
+    ***View** - Return a view of an input tensor of a certain shape but keep the same memory as the original tensor*
+
+*
+    ***Stacking** - combine multiple tensore on top of each other (vstack) or side by side (hstack) **OR** concatinating tensors to a new dimensions.* 
+*
+    ***Squeeze** - removes all '1' dimensions from a tensor* 
+*
+   ***Unsqueeze** - adds all '1' dimensions from a tensor*
+*
+    ***Permute**-  Return a view of input with dimensions permuted/swapped in a certain way.*
