@@ -305,3 +305,42 @@
 
 *
     *We can also use ':' to select all of the target dimension*
+
+##### **PyTorch and NumPy**
+
+##### **video Timestamp :** **3:32:58 - 3:42:08*
+
+*
+    ***NumPy** - A popular scientific python numerical computation library*
+
+*
+    *It has functionality to intract with PyTorch*
+
+*
+    *Data in NumPy can be converted to PyTorch tensor using torch.from_numpy(array)*
+*
+    *PyTorch tensors can be converted to NumPy array using torch.Tensor.numpy()*
+
+*
+    *default datatype of numpy is float64 and pytorch reflects it when we use from_numpy() method*
+
+*
+    ***NOTE :** we must be carefull while converting numpy array to tensor as pytorch reflects the numpy datatype*
+
+*
+    *Changing array may not change the tensor and vica-versa*
+
+
+##### **PyTorch Reproducibility**
+
+##### **video Timestamp :** **3:42:08 - 3:52:57*
+
+*
+    *Reproducibility - Trying to m ake random out of random*
+*
+    *Basics of nueral network unfolds*
+
+*
+    ***Workings of Neural network** --> Neural network starts with random numbers and try to make better representation out of them time and again.*
+*
+    *To reduce the randomness in neural network and pytorch , we'll use the concept of **Random Seed**. What randon seed does is flavour the randomness*
