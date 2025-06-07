@@ -295,3 +295,13 @@
    ***Unsqueeze** - adds all '1' dimensions from a tensor*
 *
     ***Permute**-  Return a view of input with dimensions permuted/swapped in a certain way.*
+
+##### **Selecting data from tensors(indexing)**
+
+##### **video Timestamp :** **3:23:30 - 3:32:58*
+
+*
+    *Indexing with PyTorch is same as indexing with NumPy*
+
+*
+    *We can also use ':' to select all of the target dimension*
