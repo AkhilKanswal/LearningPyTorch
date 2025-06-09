@@ -344,3 +344,29 @@
     ***Workings of Neural network** --> Neural network starts with random numbers and try to make better representation out of them time and again.*
 *
     *To reduce the randomness in neural network and pytorch , we'll use the concept of **Random Seed**. What randon seed does is flavour the randomness*
+
+### Accessing GPUs
+##### **video Timestamp :** **3:53:00 -4:04:50*
+
+*
+    *Using gpu makes our code runfaster and more efficiently.*
+
+*
+    *Getting a GPU :*
+    1. Use google colab is free
+    2. Getting ones own (need to buy one )
+    3. use cloud computing
+    
+*
+    *Device agonistic code*
+    *deice="cuda" if torch.cuda.isavailable() else "cpu"*
+
+### Setting Up Device agonistic code(I'll Write notes only)
+##### **video Timestamp :** **4:04:51 - 4:12:32*
+
+*
+    *Tensors are default on CPU*
+*
+    *We can set tensors from cpu to gpu(s) and also can move back and forth.*
+*
+    *We can't transform our tensor to numpy if it's on a GPU.*
