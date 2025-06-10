@@ -210,7 +210,7 @@
 
 ##### **Tensor Operations**
 
-##### **video Timestamp :** ** 2:11:49 - 2:17:48*
+##### **video Timestamp :** **2:11:49 - 2:17:48*
 
 *
     *Tensor Operations include:*
@@ -226,7 +226,7 @@
 
 ##### **Matrix Multiplication**
 
-##### **video Timestamp :** **2:17:48 - 2:34:59*
+##### **video Timestamp :** **2:17:48 - 2:34:59**
 *
     *We'll use troch.mul() for element wise matrix multiplication*
 *
@@ -240,7 +240,7 @@
 
 ##### **Matrix Multiplication(dealin with shape errors)**
 
-##### **video Timestamp :** **2:35:18 - 2:48:15*
+##### **video Timestamp :** **2:35:18 - 2:48:15**
 
 *
     *Its common to run into shape errors, to fix tensor shape issues, we'll use **Transpose** of a matrix(tensor)*
@@ -256,7 +256,7 @@
 
 ##### **Tensor aggeration i.e., finding min,max,mean, sum etc.**
 
-##### **video Timestamp :** **2:48:17 - 2:54:28*
+##### **video Timestamp :** **2:48:17 - 2:54:28**
 
 *
     *To find max well use torch.max(Definedtensor) & Definedtensor.max*
@@ -271,14 +271,14 @@
 
 ##### **Finding positional min and max of tensors**
 
-##### **video Timestamp :** **2:54:28 - 2:57:45*
+##### **video Timestamp :** **2:54:28 - 2:57:45**
 
 *
     *To find the positional min and max of a tensor we'll argmin() and argmax() and returns the index*
 
 ##### **Reshaping, reviewing and stacking tensors**
 
-##### **video Timestamp :** **2:57:50 - 3:11:28*
+##### **video Timestamp :** **2:57:50 - 3:11:28**
 *
     ***Reshaping** - reshape an input tensor to a defined shape*
 *
@@ -298,7 +298,7 @@
 
 ##### **Selecting data from tensors(indexing)**
 
-##### **video Timestamp :** **3:23:30 - 3:32:58*
+##### **video Timestamp :** **3:23:30 - 3:32:58**
 
 *
     *Indexing with PyTorch is same as indexing with NumPy*
@@ -308,7 +308,7 @@
 
 ##### **PyTorch and NumPy**
 
-##### **video Timestamp :** **3:32:58 - 3:42:08*
+##### **video Timestamp :** **3:32:58 - 3:42:08**
 
 *
     ***NumPy** - A popular scientific python numerical computation library*
@@ -333,7 +333,7 @@
 
 ##### **PyTorch Reproducibility**
 
-##### **video Timestamp :** **3:42:08 - 3:52:57*
+##### **video Timestamp :** **3:42:08 - 3:52:57**
 
 *
     *Reproducibility - Trying to m ake random out of random*
@@ -346,7 +346,7 @@
     *To reduce the randomness in neural network and pytorch , we'll use the concept of **Random Seed**. What randon seed does is flavour the randomness*
 
 ### Accessing GPUs
-##### **video Timestamp :** **3:53:00 -4:04:50*
+##### **video Timestamp :** **3:53:00 -4:04:50**
 
 *
     *Using gpu makes our code runfaster and more efficiently.*
@@ -362,7 +362,7 @@
     *deice="cuda" if torch.cuda.isavailable() else "cpu"*
 
 ### Setting Up Device agonistic code(I'll Write notes only)
-##### **video Timestamp :** **4:04:51 - 4:12:32*
+##### **video Timestamp :** **4:04:51 - 4:12:32**
 
 *
     *Tensors are default on CPU*
