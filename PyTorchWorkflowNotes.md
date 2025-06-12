@@ -71,3 +71,62 @@
 
 *   
     *Model has random value*
+
+### Making random predictions from modle_0 using torch.inference_mode()
+##### **video Timestamp :** **5:30:02 - 5:41:15**
+
+*
+    *We'll make predictions from modle_0 using torch.inference_mode()*
+
+*
+    *inference_mode() helps as a context manager, it is used in making predictions without gradient descent. That means it automatically turnsoff the required_grad.*
+
+*
+    *we can also use torch.no_grad()*
+
+
+### Training a model with PyTorch
+##### **video Timestamp :** **5:41:16 - 5:49:29**
+*
+    *The whole idea of training for a model to from some **Unknown** parameters.In other words it;s about how can we better represents our data*
+
+*
+    *One way to measure how pooor our model predictions are we can user loss function*
+
+
+    **Thins we need to train :**
+
+*
+    ***Loss Function** - A function to measure how wrong our model prediction are to ideal outputs*
+*
+    ***Optimizer :** Takes into account the loss af a model and adjusts the model's parameters(e.g., weight & bias) to improve the loss function*
+
+*
+    *We'll typically need :*
+    -   $TrainingLoop$
+    -   $TestingLoop$
+
+### Setting Up loss function and optimiser
+##### **video Timestamp :** **5:49:29 - 6:02:22**
+
+*
+    *MAE- Mean Absolute Error l1*
+*
+    *MSE - Mean Squared Error l2*
+
+### PyTorch training loop
+##### **video Timestamp :** **6:02:22 - 6:40:04**
+
+**Steps for building a training loop and testing loop in PyTorch :**
+
+*0. loop through the data*
+*1. Forward pass / propagation - This involved data moving through our model's forward() function to make predictions on data*
+*2.Calculate the loss - compare forward pass predictions to grounf truth labels*
+*3.Optimizer zero grad*
+*4.Loss backwards - moves backwards through network to calculate the gradients of each of the parameters of our model with respect to loss(**Back Propogation**)*
+*5.Optimiser step - uses optimizer to adjust our model's parameters to try and improve the loss(**Gradient Descent**)*
+
+*
+    *Every model is in train mode by default*
+*
+    *\"train\" mode inPyTorch sets all parametrs that requires gradients to require gradients*
