@@ -115,18 +115,33 @@
     *MSE - Mean Squared Error l2*
 
 ### PyTorch training loop
-##### **video Timestamp :** **6:02:22 - 6:40:04**
+##### **video Timestamp :** **6:02:22 - 7:15:51**
 
 **Steps for building a training loop and testing loop in PyTorch :**
 
-*0. loop through the data*
-*1. Forward pass / propagation - This involved data moving through our model's forward() function to make predictions on data*
-*2.Calculate the loss - compare forward pass predictions to grounf truth labels*
-*3.Optimizer zero grad*
-*4.Loss backwards - moves backwards through network to calculate the gradients of each of the parameters of our model with respect to loss(**Back Propogation**)*
-*5.Optimiser step - uses optimizer to adjust our model's parameters to try and improve the loss(**Gradient Descent**)*
+0. *loop through the data*
+1. *Forward pass / propagation - This involved data moving through our model's forward() function to make predictions on data*
+2. *Calculate the loss - compare forward pass predictions to grounf truth labels*
+3.*Optimizer zero grad*
+4.*Loss backwards - moves backwards through network to calculate the gradients of each of the parameters of our model with respect to loss(**Back Propogation**)*
+5.*Optimiser step - uses optimizer to adjust our model's parameters to try and improve the loss(**Gradient Descent**)*
 
 *
     *Every model is in train mode by default*
 *
     *\"train\" mode inPyTorch sets all parametrs that requires gradients to require gradients*
+
+### writing code to save our model
+##### **video Timestamp :** **7:15:53 - 7:38:24**
+
+*
+    *There are 3 methods to saving and loading model in PyTorch*
+    - ***torch.save()** - saves a PyTorch object in python pickle format*
+    -*torch.load()** - used to load a saved PyTorch Object***
+    - ***torch.nn.module.loadstact_dict()**- allows to load a model's saved state dictionary*
+
+*
+    *PyTorch objects has \".pth\" or \".pt\"as convenstion*
+
+*
+    *As we have saved our model's state_dict :rather than entire model, we have to create a new instance of our model class*
