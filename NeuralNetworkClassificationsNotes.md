@@ -50,10 +50,31 @@ Only some code
 ---
 
 ### Setting up loss function, optimizer
-##### **video Timestamp :** **9:57:12 - **
+##### **video Timestamp :** **9:57:12 - 10:12:06**
 
 *
     *For problems like regression we will use MAE(Mean Absolute Error) or MSE(Mean squared Error)*
 
 *
     *For classification we 'll use binary cross entropy or categorical cross entropy*
+
+*
+    *We'll use SGD and Adam optimizer for classification*
+
+*
+    *We'll use <u>torch.nn.BCEWithLogitsLoss()</u>*
+
+### Going from model logits to prediction probabilities to prediction labels
+##### **video Timestamp :** **10:12:06 - 10:28:12**
+*
+    ***logits** -> whatever our model outputs is a logit*
+*
+    *We can convert these logits into perdiction probablities for passing them to some kind od activation function(e.g., sigmoid for binary crossentropy and softmax for multiclass classification)*
+
+*
+    *We can convert our model's prediction probablities to prediction labels by either rounding them or taking the argmax()*
+
+*
+    *For our prediction probability values, we need to perform a range-style rounding on them :*
+    -yPredsProbs>=0.5, y=1 (class1)
+    -$y_Preds_Probs>=0.5, y=1 (class0)$
