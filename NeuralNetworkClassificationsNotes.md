@@ -78,3 +78,16 @@ Only some code
     *For our prediction probability values, we need to perform a range-style rounding on them :*
     -yPredsProbs>=0.5, y=1 (class1)
     -$y_Preds_Probs>=0.5, y=1 (class0)$
+
+
+### Writing testing and training loop for classification problem
+##### **video Timestamp :** **10:28:12 - 10:43:40**
+
+*
+    *wrote code for trainig and testing*
+
+### writing code to download a helper function to visualize our model's predictions
+##### **video Timestamp :** **10:43:41 - 10:57:54**
+
+*
+    *To visiually inspect the predictions, we'll use some other function*
