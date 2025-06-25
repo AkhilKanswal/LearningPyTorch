@@ -91,3 +91,29 @@ Only some code
 
 *
     *To visiually inspect the predictions, we'll use some other function*
+
+### Ways to imporving our model
+##### **video Timestamp :** **10:57:57 - 10:05:58**
+
+*
+    *Imporving our model in following ways*
+        - $Adding more layers$
+        - $Add more hidden layers$
+        - $Fit for longer$
+        - $changing the learning rate$
+        - $Change the loss function$
+
+
+### Creating a new model with more layers and hidden units
+##### **video Timestamp :** **11:06:00  - 11:15:05**
+
+
+*
+    *We 'll try to improve the model using*
+    - *Adding more hidden layer from 5 to 10*
+    - *Increase the number of layers from 2 to 3*
+    - *Increase the number of epochs from 100 to 1000*
+
+
+### writing testing and training loop to check for performance of our model
+##### **video Timestamp :** **11:15:06 - 11:27:51**
